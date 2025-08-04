@@ -1,1 +1,107 @@
-
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: #16161a;
+  color: #fff;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em 2em;
+  background: #181828;
+  box-shadow: 0 2px 16px #ab5aff22;
+}
+.logo {
+  font-size: 1.7em;
+  font-weight: bold;
+  color: #ab5aff;
+  letter-spacing: 2px;
+}
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin-left: 2em;
+  font-weight: 500;
+  transition: color 0.2s;
+}
+nav a:hover {
+  color: #ab5aff;
+}
+.hero {
+  text-align: center;
+  padding: 6em 2em 4em 2em;
+  background: radial-gradient(circle, #2a145e 0%, #16161a 100%);
+}
+.hero h1 {
+  font-size: 2.8em;
+  margin-bottom: 0.2em;
+  background: linear-gradient(90deg, #ab5aff 30%, #fff 90%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.hero p {
+  font-size: 1.3em;
+  color: #ccc;
+  margin-bottom: 1.5em;
+}
+.cta {
+  display: inline-block;
+  padding: 1em 2em;
+  background: linear-gradient(90deg, #ab5aff, #5f34e7 90%);
+  color: #fff;
+  border: none;
+  border-radius: 1.3em;
+  font-size: 1.1em;
+  font-weight: bold;
+  text-decoration: none;
+  box-shadow: 0 4px 18px 0 #ab5aff44;
+  transition: background 0.2s, color 0.2s;
+}
+.cta:hover {
+  background: #fff;
+  color: #ab5aff;
+}
+.features {
+  padding: 3em 1em;
+  max-width: 900px;
+  margin: 0 auto;
+}
+.features h2 {
+  text-align: center;
+  font-size: 2em;
+  margin-bottom: 1.4em;
+  color: #fff;
+}
+.feature-list {
+  display: flex;
+  gap: 2em;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.feature {
+  background: #181828ee;
+  border-radius: 1.2em;
+  padding: 2em;
+  box-shadow: 0 2px 12px #ab5aff22;
+  min-width: 220px;
+  flex: 1;
+  max-width: 260px;
+  margin-bottom: 1em;
+}
+.feature h3 {
+  color: #ab5aff;
+  margin-bottom: 0.5em;
+}
+.feature p {
+  color: #c2c2c2;
+}
+footer {
+  text-align: center;
+  padding: 2em 0 1em 0;
+  color: #bfbfbf;
+  background: #181828;
+  border-radius: 2em 2em 0 0;
+  margin-top: 3em;
+  font-size: 1em;
+}
