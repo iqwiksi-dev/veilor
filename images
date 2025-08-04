@@ -1,7 +1,7 @@
 veilor-website/
-  ├── images/
-  │     ├── zeroday-veilor.png
-  │     ├── crusader-veilor.png
-  │     └── veilor-no-recoil-script.png
-  ├── index.html
-  └── styles.css
+│   index.html
+│   styles.css
+└── images/
+      zeroday-veilor.png
+      crusader-veilor.png
+      veilor-no-recoil-script.png
