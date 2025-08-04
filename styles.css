@@ -96,15 +96,6 @@ nav a:hover {
 .feature p {
   color: #c2c2c2;
 }
-footer {
-  text-align: center;
-  padding: 2em 0 1em 0;
-  color: #bfbfbf;
-  background: #181828;
-  border-radius: 2em 2em 0 0;
-  margin-top: 3em;
-  font-size: 1em;
-}
 .products {
   padding: 3em 1em;
   max-width: 1100px;
@@ -146,6 +137,7 @@ footer {
   border-radius: 0.7em;
   margin-bottom: 1em;
   box-shadow: 0 2px 8px #ab5aff22;
+  background: #120e20;
 }
 .product-card h3 {
   color: #fff;
@@ -184,4 +176,12 @@ footer {
   background: #fff;
   color: #ab5aff;
 }
-
+footer {
+  text-align: center;
+  padding: 2em 0 1em 0;
+  color: #bfbfbf;
+  background: #181828;
+  border-radius: 2em 2em 0 0;
+  margin-top: 3em;
+  font-size: 1em;
+}
